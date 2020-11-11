@@ -1,4 +1,4 @@
-pipeline {
+//pipeline {
    node("slavebits"){
       stages {
           stage("Build") {
@@ -18,4 +18,4 @@ pipeline {
       // And next stages if you want to define further...
     }// End of slave slavebits
   } // End of stages
-} // End of pipeline
+//} // End of pipeline

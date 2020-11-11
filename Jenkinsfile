@@ -2,7 +2,7 @@
    node("slavebits"){
       //stages {
           stage("Build") {
-            steps {
+            //steps {
               // Just print a Hello, Pipeline to the console
               echo "BITS Jenkins Assignment 3"
               // Compile a Java file. This requires JDKconfiguration from Jenkins
@@ -13,7 +13,7 @@
               //mvn clean package ./HelloPackage
               // List the files in current directory path by executing a default shell command
               //sh "ls -ltr"
-            }
+            //}
           }
       // And next stages if you want to define further...
     }// End of slave slavebits

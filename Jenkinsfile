@@ -6,9 +6,9 @@
               // Print a text to the console
               echo "BITS Jenkins Assignment 3"
               // Compile a Java file after configuring JDKconfiguration from Jenkins
-              javac Scratch.java
+              javac Bits.java
               // Execute the compiled Java programme Scratch
-              java Scratch
+              java Bits
               // Executes the Apache Maven commands, clean then package. This requires Apache Maven configuration from Jenkins
               //mvn clean package ./HelloPackage
               // List the files in current directory path by executing a default shell command

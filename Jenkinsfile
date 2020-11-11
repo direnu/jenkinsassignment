@@ -1,6 +1,7 @@
 pipeline {
-agent any
+
   stages {
+  node("slavebits"){
     stage("Build") {
        steps {
           // Just print a Hello, Pipeline to the console
@@ -16,5 +17,6 @@ agent any
        }
    }
    // And next stages if you want to define further...
+   }//running on slave slavebits
  } // End of stages
 } // End of pipeline

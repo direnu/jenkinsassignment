@@ -1,6 +1,6 @@
 //pipeline {
    node("slavebits"){
-      stages {
+      //stages {
           stage("Build") {
             steps {
               // Just print a Hello, Pipeline to the console
@@ -17,5 +17,5 @@
           }
       // And next stages if you want to define further...
     }// End of slave slavebits
-  } // End of stages
+  //} // End of stages
 //} // End of pipeline

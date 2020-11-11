@@ -1,6 +1,6 @@
 //pipeline {
    node("slavebits"){
-
+   //with new branch staging
           stage("Build") {
               // Print a text to the console
               echo "BITS Jenkins Assignment 3"
